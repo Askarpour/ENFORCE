@@ -1,0 +1,240 @@
+Error reading Enc1_Mj_G0.xml
+
+real	0m0.032s
+user	0m0.002s
+sys	0m0.005s 	 N 
+
+Error reading Enc2_Mj_G0.xml
+
+real	0m0.007s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc1_Mj_G0.xml
+
+real	0m0.007s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc2_Mj_G0.xml
+
+real	0m0.007s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc1_Mj_G0.xml
+
+real	0m0.006s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc2_Mj_G0.xml
+
+real	0m0.008s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc1_Mj_G0.xml
+
+real	0m0.006s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc2_Mj_G0.xml
+
+real	0m0.005s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc1_Mj_G1.xml
+
+real	0m0.007s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc2_Mj_G1.xml
+
+real	0m0.012s
+user	0m0.003s
+sys	0m0.003s 	 N 
+
+Error reading Enc1_Mj_G1.xml
+
+real	0m0.005s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc2_Mj_G1.xml
+
+real	0m0.009s
+user	0m0.002s
+sys	0m0.003s 	 N 
+
+Error reading Enc1_Mj_G1.xml
+
+real	0m0.006s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc2_Mj_G1.xml
+
+real	0m0.009s
+user	0m0.003s
+sys	0m0.003s 	 N 
+
+Error reading Enc1_Mj_G1.xml
+
+real	0m0.006s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc2_Mj_G1.xml
+
+real	0m0.005s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc1_Mj_G2.xml
+
+real	0m0.006s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc2_Mj_G2.xml
+
+real	0m0.007s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc1_Mj_G2.xml
+
+real	0m0.006s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc2_Mj_G2.xml
+
+real	0m0.008s
+user	0m0.002s
+sys	0m0.004s 	 N 
+
+Error reading Enc1_Mj_G2.xml
+
+real	0m0.007s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc2_Mj_G2.xml
+
+real	0m0.005s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc1_Mj_G2.xml
+
+real	0m0.005s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc2_Mj_G2.xml
+
+real	0m0.005s
+user	0m0.002s
+sys	0m0.001s 	 N 
+
+Error reading Enc1_Mj_G3.xml
+
+real	0m0.012s
+user	0m0.002s
+sys	0m0.003s 	 N 
+
+Error reading Enc2_Mj_G3.xml
+
+real	0m0.006s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc1_Mj_G3.xml
+
+real	0m0.007s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc2_Mj_G3.xml
+
+real	0m0.008s
+user	0m0.002s
+sys	0m0.003s 	 N 
+
+Error reading Enc1_Mj_G3.xml
+
+real	0m0.007s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc2_Mj_G3.xml
+
+real	0m0.006s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc1_Mj_G3.xml
+
+real	0m0.005s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc2_Mj_G3.xml
+
+real	0m0.005s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc1_Mj_G4.xml
+
+real	0m0.037s
+user	0m0.002s
+sys	0m0.006s 	 N 
+
+Error reading Enc2_Mj_G4.xml
+
+real	0m0.006s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc1_Mj_G4.xml
+
+real	0m0.008s
+user	0m0.003s
+sys	0m0.003s 	 N 
+
+Error reading Enc2_Mj_G4.xml
+
+real	0m0.005s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc1_Mj_G4.xml
+
+real	0m0.006s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc2_Mj_G4.xml
+
+real	0m0.008s
+user	0m0.003s
+sys	0m0.003s 	 N 
+
+Error reading Enc1_Mj_G4.xml
+
+real	0m0.007s
+user	0m0.002s
+sys	0m0.003s 	 N 
+
+Error reading Enc2_Mj_G4.xml
+
+real	0m0.005s
+user	0m0.002s
+sys	0m0.002s 	 N 
+

@@ -1,0 +1,288 @@
+Error reading Enc1_Mj_G0.xml
+
+real	0m0.006s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading Enc2_Mj_G0.xml
+
+real	0m0.006s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Enc1_Mp_G0.xml:/nta/template[2]/transition[25]/label[2]:1: [error] Unknown identifier: workcompleted.
+
+real	0m0.043s
+user	0m0.033s
+sys	0m0.005s 	 N 
+
+Error reading Enc2_Mp_G0.xml
+
+real	0m0.011s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Error reading ../experiments/Enc1_Mp_G0.xml
+
+real	0m0.014s
+user	0m0.003s
+sys	0m0.003s 	 N 
+
+Error reading ../experiments/Enc2_Mp_G0.xml
+
+real	0m0.009s
+user	0m0.002s
+sys	0m0.004s 	 N 
+
+Enc1_Mp_G0.xml:/nta/template[2]/transition[25]/label[2]:1: [error] Unknown identifier: workcompleted.
+
+real	0m0.046s
+user	0m0.035s
+sys	0m0.005s 	 N 
+
+Error reading Enc2_Mp_G0.xml
+
+real	0m0.006s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Enc1_Mp_G0.xml:/nta/template[2]/transition[25]/label[2]:1: [error] Unknown identifier: workcompleted.
+
+real	0m0.035s
+user	0m0.030s
+sys	0m0.003s 	 N 
+
+Error reading Enc2_Mp_G0.xml
+
+real	0m0.005s
+user	0m0.002s
+sys	0m0.001s 	 N 
+
+Enc1_Mj_G0.xml:/nta/template[2]/transition[25]/label[2]:1: [error] Unknown identifier: workcompleted.
+
+real	0m0.246s
+user	0m0.198s
+sys	0m0.014s 	 N 
+
+Error reading Enc2_Mj_G0.xml
+
+real	0m0.005s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Writing example trace to ../experiments/trace/Enc1_Mj_G0_TN2_P1.xtr-1.xtr
+
+real	0m0.795s
+user	0m0.752s
+sys	0m0.022s 	 Y 
+
+Error reading ../experiments/Enc2_Mj_G0.xml
+
+real	0m0.005s
+user	0m0.002s
+sys	0m0.001s 	 N 
+
+Enc1_Mj_G0.xml:/nta/template[2]/transition[25]/label[2]:1: [error] Unknown identifier: workcompleted.
+
+real	0m0.204s
+user	0m0.194s
+sys	0m0.008s 	 N 
+
+Error reading Enc2_Mj_G0.xml
+
+real	0m0.005s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Enc1_Mj_G0.xml:/nta/template[2]/transition[25]/label[2]:1: [error] Unknown identifier: workcompleted.
+
+real	0m0.228s
+user	0m0.213s
+sys	0m0.009s 	 N 
+
+Error reading Enc2_Mj_G0.xml
+
+real	0m0.005s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Enc1_Mj_G0.xml:/nta/template[2]/transition[25]/label[2]:1: [error] Unknown identifier: workcompleted.
+
+real	0m0.257s
+user	0m0.199s
+sys	0m0.016s 	 N 
+
+Enc2_Mj_G0.xml:/nta/template[1]/transition[1]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[4]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[4]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[5]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[8]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[8]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[9]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[12]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[12]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[13]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[16]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[16]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[2]/transition[25]/label[2]:1: [error] Unknown identifier: workcompleted.
+
+real	0m0.089s
+user	0m0.076s
+sys	0m0.008s 	 N 
+
+Writing example trace to ../experiments/trace/Enc1_Mj_G0_TN2_P1.xtr-1.xtr
+
+real	0m0.825s
+user	0m0.767s
+sys	0m0.030s 	 Y 
+
+Error reading ../experiments/Enc2_Mj_G0.xml
+
+real	0m0.006s
+user	0m0.002s
+sys	0m0.002s 	 N 
+
+Enc1_Mj_G0.xml:/nta/template[2]/transition[25]/label[2]:1: [error] Unknown identifier: workcompleted.
+
+real	0m0.325s
+user	0m0.262s
+sys	0m0.016s 	 N 
+
+Enc2_Mj_G0.xml:/nta/template[1]/transition[1]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[4]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[4]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[5]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[8]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[8]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[9]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[12]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[12]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[13]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[16]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[16]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[2]/transition[25]/label[2]:1: [error] Unknown identifier: workcompleted.
+
+real	0m0.120s
+user	0m0.096s
+sys	0m0.010s 	 N 
+
+Enc1_Mj_G0.xml:/nta/template[2]/transition[25]/label[2]:1: [error] Unknown identifier: workcompleted.
+
+real	0m0.276s
+user	0m0.238s
+sys	0m0.013s 	 N 
+
+Enc2_Mj_G0.xml:/nta/template[1]/transition[1]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[4]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[4]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[5]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[8]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[8]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[9]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[12]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[12]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[13]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[16]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[16]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[2]/transition[25]/label[2]:1: [error] Unknown identifier: workcompleted.
+
+real	0m0.109s
+user	0m0.091s
+sys	0m0.008s 	 N 
+
+Enc1_Mj_G0.xml:/nta/template[2]/transition[25]/label[2]:1: [error] Unknown identifier: workcompleted.
+
+real	0m0.436s
+user	0m0.302s
+sys	0m0.038s 	 N 
+
+Enc2_Mj_G0.xml:/nta/template[1]/transition[1]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[4]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[4]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[5]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[8]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[8]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[9]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[12]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[12]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[13]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[16]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[16]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[2]/transition[25]/label[2]:1: [error] Unknown identifier: workcompleted.
+
+real	0m0.150s
+user	0m0.106s
+sys	0m0.012s 	 N 
+
+Enc1_Mj_G0.xml:/nta/template[2]/transition[25]/label[2]:1: [error] Unknown identifier: workcompleted.
+
+real	0m0.309s
+user	0m0.264s
+sys	0m0.026s 	 N 
+
+Enc2_Mj_G0.xml:/nta/template[1]/transition[1]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[4]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[4]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[5]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[8]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[8]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[9]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[12]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[12]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[13]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[16]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[16]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[2]/transition[25]/label[2]:1: [error] Unknown identifier: workcompleted.
+
+real	0m0.354s
+user	0m0.134s
+sys	0m0.022s 	 N 
+
+Enc1_Mj_G0.xml:/nta/template[2]/transition[25]/label[2]:1: [error] Unknown identifier: workcompleted.
+
+real	0m0.574s
+user	0m0.307s
+sys	0m0.024s 	 N 
+
+Enc2_Mj_G0.xml:/nta/template[1]/transition[1]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[4]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[4]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[5]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[8]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[8]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[9]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[12]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[12]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[13]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[16]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[16]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[2]/transition[25]/label[2]:1: [error] Unknown identifier: workcompleted.
+
+real	0m0.207s
+user	0m0.119s
+sys	0m0.010s 	 N 
+
+Enc1_Mj_G0.xml:/nta/template[2]/transition[25]/label[2]:1: [error] Unknown identifier: workcompleted.
+
+real	0m0.415s
+user	0m0.319s
+sys	0m0.024s 	 N 
+
+Enc2_Mj_G0.xml:/nta/template[1]/transition[1]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[4]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[4]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[5]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[8]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[8]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[9]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[12]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[12]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[13]/label[3]:1: [error] Unknown identifier: P0.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[16]/label[3]:1: [error] Unknown identifier: P4.
+Enc2_Mj_G0.xml:/nta/template[1]/transition[16]/label[3]:1: [error] Unknown identifier: P5.
+Enc2_Mj_G0.xml:/nta/template[2]/transition[25]/label[2]:1: [error] Unknown identifier: workcompleted.
+
+real	0m0.184s
+user	0m0.124s
+sys	0m0.017s 	 N 
+
