@@ -75,10 +75,10 @@ do
 
           echo " "
           echo "ENCODING 1"
-          sh ../uppaalmac/verify.sh  $testfile1 ./property.q   trace/$tracefile1 $resultfile $p $testname1
+          ../uppaalLinux/verify.sh  $testfile1 ./property.q   trace/$tracefile1 $resultfile $p $testname1
           echo " "
           echo "ENCODING 2"
-          timeout 600s sh ../uppaalmac/verify.sh  $testfile2 ./property.q   trace/$tracefile2 $resultfile $p $testname2
+          timeout 600s ../uppaalLinux/verify.sh  $testfile2 ./property.q   trace/$tracefile2 $resultfile $p $testname2
       fi
       if [[ "$prop" -eq "1" ]]; then
           propertystring="E<>(P3==1)"
@@ -94,10 +94,10 @@ do
 
           echo " "
           echo "ENCODING 1"
-          sh ../uppaalmac/verify.sh  $testfile1 ./property.q   trace/$tracefile1 $resultfile $p $testname1
+          ../uppaalLinux/verify.sh  $testfile1 ./property.q   trace/$tracefile1 $resultfile $p $testname1
           echo " "
           echo "ENCODING 2"
-          timeout 600s sh ../uppaalmac/verify.sh  $testfile2 ./property.q   trace/$tracefile2 $resultfile $p $testname2
+          timeout 600s ../uppaalLinux/verify.sh  $testfile2 ./property.q   trace/$tracefile2 $resultfile $p $testname2
       fi
       if [[ "$prop" -eq "2" ]]; then
       	for ((timebound=0; timebound<${timetestnumber}; timebound++));
@@ -116,10 +116,10 @@ do
 
               echo " "
               echo "ENCODING 1"
-              sh ../uppaalmac/verify.sh  $testfile1 ./property.q   trace/$tracefile1 $resultfile $p $testname1
+              ../uppaalLinux/verify.sh  $testfile1 ./property.q   trace/$tracefile1 $resultfile $p $testname1
               echo " "
               echo "ENCODING 2"
-              timeout 600s sh ../uppaalmac/verify.sh  $testfile2 ./property.q   trace/$tracefile2 $resultfile $p $testname2
+              timeout 600s ../uppaalLinux/verify.sh  $testfile2 ./property.q   trace/$tracefile2 $resultfile $p $testname2
           done
       fi
 	done

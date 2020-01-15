@@ -48,10 +48,10 @@ import cv2
 from PIL import Image
 import sys
 
-
-(wallx, wally)=figure2wall_2robot('JupiterImg.png') # importare immagine mappa
-im=Image.open('JupiterImg.png')
-im=Image.open('JupiterImg.png')
+jyimg = '../maps/JupiterImg.png'
+(wallx, wally)=figure2wall_2robot(jyimg) # importare immagine mappa
+im=Image.open(jyimg)
+im=Image.open(jyimg)
 
 
 x_meter_side=60 # [m]                   #larghezza massima stanza
@@ -75,7 +75,7 @@ print("Loading point Robot2 = ("+str(loadingp2_y)+","+str(loadingp2_x)+")")
 
 pix=im.load()
 rgb_im = im.convert('RGB')
-minx=0                     
+minx=0
 maxx=im.size[0]
 miny=0
 maxy=im.size[1]
@@ -88,7 +88,7 @@ maxy=im.size[1]
 #maxy=max(wally)
 scale=(maxx-minx)/x_meter_side          # 1 metro = scale pixels
 tmove=int(span_meter/velocity_average)  # tempo di movimento tra due stati consecutivi in base a velocità e span
-diameter=diameter_footprint*scale       # diametro convertito in pixels                                      
+diameter=diameter_footprint*scale       # diametro convertito in pixels
 radius=diameter/2
 x_meter_max=maxx/scale # coordinate in metri dell' ultimo punto in basso a destra
 y_meter_max=maxy/scale
@@ -113,11 +113,11 @@ columns=int(x_meter_max/span_meter)
 print("GEOMETRY:")
 print("rows=",rows)
 print("columns=",columns)
-counter1 = range(0,rows)  
+counter1 = range(0,rows)
 counter2 = range(0,columns)
 print("writing ROOM XML file")
 
-#ROOM XML 
+#ROOM XML
 nta = ET.Element ("nta")
 declaration = ET.SubElement(nta,"declaration").text = "chan r1,l1,u1,d1,s1,r2,l2,u2,d2,s2,start_loading,end_loading; clock t; clock t1; clock t2; int x1=3; int y1=3; int x2=3; int y2=8; int tmove=%d; int tstay=%d; int tload1=10; int P1=0; int P2=0; int Loaded=0;" % (tmove,tstay) #clock x;
 
@@ -132,15 +132,15 @@ rgb_im = im.convert('RGB')
 #STATES
 for counta in counter1:
     for countb in counter2:
-        r, g, b = rgb_im.getpixel((countb*factor, counta*factor)) 
+        r, g, b = rgb_im.getpixel((countb*factor, counta*factor))
         if not (r==0 and g==0 and b==0): #if point not black
             location = ET.SubElement(template,"location",id="id%d-%d" % (counta,countb),x="%d" % (countb*100),y="%d" %(counta*100))
             name=ET.SubElement(location,"name").text = "id%dI%d" % (counta,countb)
-        
-        
-        
-        
-        
+
+
+
+
+
 #INITIAL STATE
 init = ET.SubElement(template,"init",ref="id3-3") #INITIAL STATE E1                              <---------- settare initial state, qui, nelle declarations e anche nell'environment2
 #TRANSITIONS
@@ -169,7 +169,7 @@ for counta in counter1:
                     label = ET.SubElement(transition,"label",kind="assignment").text = "P1=0, x1=x1+1"
             else:
                 label = ET.SubElement(transition,"label",kind="assignment").text = "x1=x1+1"
-                
+
 #left
 print("2/5")
 for counta in counter1:
@@ -192,8 +192,8 @@ for counta in counter1:
             else:
                 label = ET.SubElement(transition,"label",kind="assignment").text = "x1=x1-1"
 
-                
-                
+
+
 #down
 print("3/5")
 for counta in counter1:
@@ -216,7 +216,7 @@ for counta in counter1:
                     label = ET.SubElement(transition,"label",kind="assignment").text = "P1=0, y1=y1+1"
             else:
                 label = ET.SubElement(transition,"label",kind="assignment").text = "y1=y1+1"
-                    
+
 #up
 print("4/5")
 for counta in counter1:
@@ -239,8 +239,8 @@ for counta in counter1:
                     label = ET.SubElement(transition,"label",kind="assignment").text = "P1=0, y1=y1-1"
             else:
                 label = ET.SubElement(transition,"label",kind="assignment").text = "y1=y1-1"
-                
-                
+
+
 #stay
 print("5/5")
 for counta in counter1:
@@ -261,7 +261,7 @@ name = ET.SubElement(template,"name").text = "Environment2"
 #STATES
 for counta in counter1:
     for countb in counter2:
-        r, g, b = rgb_im.getpixel((countb*factor, counta*factor)) 
+        r, g, b = rgb_im.getpixel((countb*factor, counta*factor))
         if not (r==0 and g==0 and b==0): #if point not black
             location = ET.SubElement(template,"location",id="id%d-%d" % (counta,countb),x="%d" % (countb*100),y="%d" %(counta*100))
             name=ET.SubElement(location,"name").text = "id%dI%d" % (counta,countb)
@@ -293,10 +293,10 @@ for counta in counter1:
                     label = ET.SubElement(transition,"label",kind="assignment").text = "P2=0, x2=x2+1"
             else:
                 label = ET.SubElement(transition,"label",kind="assignment").text = "x2=x2+1"
-                
-                
-                
-            
+
+
+
+
             #label = ET.SubElement(transition,"label",kind="assignment").text = "t=t+tmove"
 #left
 print("2/5")
@@ -319,8 +319,8 @@ for counta in counter1:
                     label = ET.SubElement(transition,"label",kind="assignment").text = "P2=0, x2=x2-1"
             else:
                 label = ET.SubElement(transition,"label",kind="assignment").text = "x2=x2-1"
-                
-                
+
+
             #label = ET.SubElement(transition,"label",kind="guard").text = "CONDIZIONE"
             #label = ET.SubElement(transition,"label",kind="assignment").text = "t=t+tmove"
 #down
@@ -344,8 +344,8 @@ for counta in counter1:
                     label = ET.SubElement(transition,"label",kind="assignment").text = "P2=0, y2=y2+1"
             else:
                 label = ET.SubElement(transition,"label",kind="assignment").text = "y2=y2+1"
-                
-                
+
+
             #label = ET.SubElement(transition,"label",kind="guard").text = "CONDIZIONE"
             #label = ET.SubElement(transition,"label",kind="assignment").text = "t=t+tmove"
 #up
@@ -369,7 +369,7 @@ for counta in counter1:
                     label = ET.SubElement(transition,"label",kind="assignment").text = "P2=0, y2=y2-1"
             else:
                 label = ET.SubElement(transition,"label",kind="assignment").text = "y2=y2-1"
-                
+
             #label = ET.SubElement(transition,"label",kind="guard").text = "CONDIZIONE"
             #label = ET.SubElement(transition,"label",kind="assignment").text = "t=t+tmove"
 #stay
@@ -397,6 +397,3 @@ tree.write("Output_XML_2Robot.xml")
 
 
 print("END process")
-
-
-

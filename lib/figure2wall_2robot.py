@@ -5,7 +5,7 @@ import cv2
 
 #image = Image.open('image.bmp')
 #image = image.filter(ImageFilter.FIND_EDGES)
-#image.save('new_name.png') 
+#image.save('new_name.png')
 
 #imageName 'test4.png'
 def figure2wall_2robot(imageName):
@@ -14,7 +14,7 @@ def figure2wall_2robot(imageName):
 	import numpy as np
 
 	img = cv2.imread(imageName)
-	gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+	gray = cv2.imread(imageName, 0)
 	#gray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 	gray=255-gray
 	image,contours,hierarchy = cv2.findContours(gray,cv2.RETR_LIST ,cv2.CHAIN_APPROX_NONE )
@@ -66,7 +66,7 @@ def figure2wall_2robot(imageName):
 	#        if(counta%2==0):
 	#                x.append(list[counta])
 	#        else:
-	#                y.append(list[counta])   
+	#                y.append(list[counta])
 
 	#COORDINATE X E Y DIVISE
         ##wallx=[x[0]]
@@ -76,7 +76,6 @@ def figure2wall_2robot(imageName):
 	#cv2.imshow('image',img)
 	#cv2.waitKey(0)
 	#print(cv2.__file__)
-	#print(cv2.getBuildInformation()) 
+	#print(cv2.getBuildInformation())
 	#cv2.imshow('Image',img)
 	#cv2.waitKey()
-
