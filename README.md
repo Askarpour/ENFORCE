@@ -32,6 +32,6 @@ Once you follow 1 - 4, then you could open each of the folders and run its sh sc
 5. cd RQ1
 6. ./test.sh
 
-
+After termination of the script, you could find the generated files in the same folder.
 
 
