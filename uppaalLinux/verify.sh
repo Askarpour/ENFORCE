@@ -22,7 +22,7 @@
 
 
 verify_output=$({ time ../uppaalLinux/verifyta -t0 -f $3 $1 $2; } 2>realtime.txt)
-{time ../uppaalLinux/verifyta -t0 -f $3 $1 $2 ; } 2>time.txt
+{ time ../uppaalLinux/verifyta -t0 -f $3 $1 $2 ; } 2>time.txt
 #{time sleep 1 2>time.txt;}
 
 execution_time=`cat realtime.txt`

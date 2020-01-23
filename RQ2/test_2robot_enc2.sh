@@ -71,7 +71,7 @@ do
 
             echo " "
             echo "ENCODING 2"
-            gtimeout 600s ../uppaalLinux/verify.sh  $testfile2 ./property.q   trace/$tracefile2 $resultfile $p $testname2
+            timeout 600s ../uppaalLinux/verify.sh  $testfile2 ./property.q   trace/$tracefile2 $resultfile $p $testname2
         fi
 
         if [[ "$prop" -eq "1" ]]; then
@@ -87,7 +87,7 @@ do
 
             echo " "
             echo "ENCODING 2"
-            gtimeout 600s ../uppaalLinux/verify.sh  $testfile2 ./property.q   trace/$tracefile2 $resultfile $p $testname2
+            timeout 600s ../uppaalLinux/verify.sh  $testfile2 ./property.q   trace/$tracefile2 $resultfile $p $testname2
         fi
 
         if [[ "$prop" -eq "2" ]]; then
@@ -102,7 +102,7 @@ do
 
             echo " "
             echo "ENCODING 2"
-            gtimeout 600s ../uppaalLinux/verify.sh  $testfile2 ./property.q   trace/$tracefile2 $resultfile $p $testname2
+            timeout 600s ../uppaalLinux/verify.sh  $testfile2 ./property.q   trace/$tracefile2 $resultfile $p $testname2
         fi
 
         if [[ "$prop" -eq "3" ]]; then
@@ -117,7 +117,7 @@ do
 
             echo " "
             echo "ENCODING 2"
-            gtimeout 600s ../uppaalLinux/verify.sh  $testfile2 ./property.q   trace/$tracefile2 $resultfile $p $testname2
+            timeout 600s ../uppaalLinux/verify.sh  $testfile2 ./property.q   trace/$tracefile2 $resultfile $p $testname2
         fi
 
         if [[ "$prop" -eq "4" ]]; then
