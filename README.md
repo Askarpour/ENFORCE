@@ -25,11 +25,11 @@ To avoid installation and configuration issues, we suggest to run the experiment
 1. git clone
 2. cd enforce
 3. docker build -t enforce .
-4. docker run -ti enforce .
+4. docker run -ti enforce
 
 Once you follow 1 - 4, then you could open each of the folders and run its sh scripts.
 
-5. cd RQ1
+5. cd enforce/RQ1
 6. ./test.sh
 
 After termination of the script, you could find the generated files in the same folder.
